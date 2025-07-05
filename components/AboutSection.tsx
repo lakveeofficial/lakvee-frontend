@@ -18,7 +18,7 @@ export default function AboutSection() {
         {/* Text Content */}
         <div className="flex-1 space-y-6">
           <div className="flex items-center  gap-5">
-            <h2 className="text-3xl font-bold text-primary">About Lakvee</h2>
+            <h2 className="text-3xl font-bold text-primary">About LakVee</h2>
             <div className="w-16 h-1 rounded-full bg-secondary" />
           </div>
 
