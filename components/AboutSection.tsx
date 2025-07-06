@@ -27,7 +27,7 @@ export default function AboutSection() {
               Who We Are
             </h3>
             <p>
-              Lakvee Software Training Institute is a future-focused training
+              LakVee Softwares & Skill Development Institute is a future-focused training
               and placement organization committed to creating industry-ready
               software professionals. We are driven by a mission to equip
               students and working professionals with the{" "}

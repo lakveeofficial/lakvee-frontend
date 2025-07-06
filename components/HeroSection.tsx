@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center text-center px-4 md:px-8 h-screen ">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-text drop-shadow-md">
-        Lakvee Softwares Training Institute
+        LakVee Softwares & Skill Development Institute
       </h1>
 
       <h2 className="text-2xl md:text-3xl font-semibold mb-6  drop-shadow-sm">
@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Primary CTA */}
         <button className="bg-gradient-to-tr text-white opacity-80 from-slate-950 via-slate-800 to-slate-800 font-semibold px-6 py-3 rounded-full shadow-md hover:opacity-100 transition">
-          📌 Book a Free Counseling Session
+          📌 Book a Free Demo Session
         </button>
 
         {/* Secondary CTA */}

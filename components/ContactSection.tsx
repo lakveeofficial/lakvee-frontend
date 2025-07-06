@@ -18,10 +18,10 @@ export default function ContactSection() {
             <div className="flex items-start gap-4">
               <FaMapMarkerAlt className="text-primary mt-1" />
               <div>
-                <p className="font-semibold">Lakvee Software Training Institute</p>
+                <p className="font-semibold">LakVee Softwares & Skill Development Institute</p>
                 <p>
                   1st Floor, Samdariya Gold, <br />
-                  Sirmour Chowk, Rewa (M.P.)
+                  Sirmour Chowk, Rewa (M.P.) 486001
                 </p>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function ContactSection() {
             <div className="flex items-center gap-4">
               <FaPhoneAlt className="text-primary" />
               <a href="tel:+919340052512" className="hover:underline">
-                +91-93400 52512
+                +91-93400 52512, +91-9964097664
               </a>
             </div>
 
