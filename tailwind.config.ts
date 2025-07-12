@@ -17,7 +17,7 @@ const config: Config = {
 
       },
       backgroundImage: {
-        hero: "url('/images/college.png')", 
+        hero: "url('/images/517476-cn-tower.webp')", // updated home background
         certificate: "url('/images/certificate.png')", 
       }
     },

@@ -2,23 +2,28 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="bg-background text-text py-20 px-6 md:px-16 h-screen flex items-center justify-center w-full">
+    <section id="about" className="bg-background text-text py-20 px-6 md:px-16 h-screen flex items-center justify-center w-full">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
-        <div className="flex-1">
+        <div className="flex-1 flex items-center justify-center min-h-[320px] md:min-h-[450px]">
           <Image
             src="/images/classroom_ai.png"
             alt="Lakvee Softwares About"
-            width={500}
-            height={500}
-            className="object-contain rounded-md"
+            width={450}
+            height={450}
+            className="object-cover object-center rounded-md shadow-lg w-full max-w-[420px] h-[320px] md:h-[450px]"
+            priority
           />
         </div>
 
         {/* Text Content */}
         <div className="flex-1 space-y-6">
-          <div className="flex items-center  gap-5">
-            <h2 className="text-3xl font-bold text-primary">About LakVee</h2>
+          <div className="flex items-center gap-5">
+            <div className="bg-[#003366] px-6 py-2 rounded-lg shadow-lg flex items-center">
+              <h2 className="text-3xl font-bold text-white tracking-wide">
+                About LakVee
+              </h2>
+            </div>
             <div className="w-16 h-1 rounded-full bg-secondary" />
           </div>
 

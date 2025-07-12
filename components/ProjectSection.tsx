@@ -33,19 +33,23 @@ const projectItems = [
 
 export default function ProjectSection() {
   return (
-    <section className="py-16 bg-background text-text">
+    <section id="projects" className="py-16 bg-background text-text">
       <div className="max-w-screen-xl mx-auto py-0 px-4 md:px-16  space-y-10">
         {/* Section Heading */}
         <div className="flex items-center gap-5">
-          <h2 className="text-3xl font-bold text-primary">
-            Live Development Projects
-          </h2>
+          <div className="bg-[#003366] px-6 py-2 rounded-lg shadow-lg flex items-center">
+            <h2 className="text-3xl font-bold text-white tracking-wide">
+              Live Development Projects
+            </h2>
+          </div>
           <div className="w-16 h-1 rounded-full bg-secondary" />
         </div>
 
         {/* Description */}
         <p className="text-gray-700 text-base max-w-3xl">
-          All Lakvee courses include real-life development exposure. Students work on real projects integrated into the training for portfolio development, internship simulation, and client delivery experience.
+          All Lakvee courses include real-life development exposure. Students work
+          on real projects integrated into the training for portfolio development,
+          internship simulation, and client delivery experience.
         </p>
 
         {/* Project Cards */}

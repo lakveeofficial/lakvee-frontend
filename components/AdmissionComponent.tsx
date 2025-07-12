@@ -17,12 +17,15 @@ const modes = [
 
 export default function AdmissionSection() {
   return (
-    <section className="relative bg-cover bg-center bg-no-repeat bg-fixed bg-hero h-screen text-white flex items-center justify-center">
+    <section id="courses" className="relative bg-cover bg-center bg-no-repeat bg-fixed bg-hero h-screen text-white flex items-center justify-center">
       <div className="absolute inset-0 bg-black bg-opacity-80 z-0" />
       <div className="max-w-screen-xl mx-auto px-4 md:px-8 space-y-12 z-10">
         {/* Header */}
         <div className="flex items-center gap-5">
-          <h2 className="text-3xl font-bold text-white">Admission Process</h2>
+          <div className="relative flex items-center">
+            <span className="absolute inset-0 bg-[#003366] rounded-lg -skew-x-12 w-full h-full z-0" />
+            <h2 className="relative text-3xl font-bold text-white tracking-wide px-6 py-2 z-10">Admission Process</h2>
+          </div>
           <div className="w-16 h-1 rounded-full bg-secondary" />
         </div>
 
@@ -42,8 +45,8 @@ export default function AdmissionSection() {
           </div>
 
           {/* Modes of Learning */}
-          <div className=" shadow-sm rounded-lg p-6 space-y-4 border border-slate-50">
-            <h3 className="text-xl font-semibold  mb-2">
+          <div className="shadow-sm rounded-lg p-6 space-y-4 border border-slate-50 flex flex-col items-center text-center">
+            <h3 className="text-xl font-semibold mb-2">
               Modes of Learning
             </h3>
             <ul className="list-disc list-inside space-y-2 text-gray-100">
