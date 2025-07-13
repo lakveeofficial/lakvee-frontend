@@ -17,7 +17,7 @@ const modes = [
 
 export default function AdmissionSection() {
   return (
-    <section id="courses" className="relative bg-cover bg-center bg-no-repeat bg-fixed bg-hero h-screen text-white flex items-center justify-center">
+    <section id="admission" className="relative bg-cover bg-center bg-no-repeat bg-fixed bg-hero h-screen text-white flex items-center justify-center">
       <div className="absolute inset-0 bg-black bg-opacity-80 z-0" />
       <div className="max-w-screen-xl mx-auto px-4 md:px-8 space-y-12 z-10">
         {/* Header */}

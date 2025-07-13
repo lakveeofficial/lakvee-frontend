@@ -1,9 +1,11 @@
 "use client";
 import { GoDownload } from "react-icons/go";
 import { useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 
 export default function HeroSection() {
   const contentRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   useEffect(() => {
     if (contentRef.current) {
@@ -12,7 +14,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative h-screen w-full flex items-center justify-center overflow-hidden">
+    <div className="relative h-screen w-full flex items-center justify-center overflow-hidden mt-10 sm:mt-0">
       <div className="absolute inset-0 bg-hero bg-cover bg-center md:bg-top z-0" />
       <div className="absolute inset-0 bg-black bg-opacity-60 md:bg-opacity-70 z-10 transition-all duration-300" />
       <div
@@ -31,7 +33,7 @@ export default function HeroSection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           {/* Primary CTA */}
-          <button className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-200">
+          <button onClick={()=>router.push("/contact")} className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-200">
             📌 Book a Free Demo Session
           </button>
           {/* Secondary CTA */}
