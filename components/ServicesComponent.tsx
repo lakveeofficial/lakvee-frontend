@@ -85,9 +85,16 @@ export default function ServicesComponent() {
       <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
 
       {/* Content */}
-      <section className="relative z-10 py-16 px-4 md:px-16 space-y-10 max-w-screen-xl mx-auto text-text">
+      <section
+        id="courses"
+        className="relative z-10 py-16 px-4 md:px-16 space-y-10 max-w-screen-xl mx-auto text-text"
+      >
         <div className="flex items-center gap-5">
-          <h2 className="text-3xl font-bold text-white">Trainings Offered</h2>
+          <div className="bg-[#003366] px-6 py-2 rounded-lg shadow-lg flex items-center">
+            <h2 className="text-3xl font-bold text-white tracking-wide">
+              Courses Offered
+            </h2>
+          </div>
           <div className="w-16 h-1 rounded-full bg-white" />
         </div>
 
